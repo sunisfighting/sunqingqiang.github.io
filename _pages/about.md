@@ -1,49 +1,90 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Qingqiang Sun"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<h2 id="biography"> Biography</h2>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I received the BEng degree from Xiamen University, China, in 2017. I received the M.Eng degree under the supervision of Prof. [Zhiqiang Ge](https://scholar.google.com.hk/citations?user=g_EMkuMAAAAJ&hl=zh-CN&oi=ao) from the Department of Control Science and Engineering, Zhejiang University, China, in 2020. I received the PhD degree under the joint supervision of Prof. [Xuemin Lin](https://www.cse.unsw.edu.au/~lxue/) (*Member of Academia Europaea/IEEE Fellow/UNSW Scientia Professor*) and Prof. [Wenjie Zhang](https://www.cse.unsw.edu.au/~zhangw/) (*ARC Future Fellow*) in the Data and Knowledge Research Group ([DKR](https://unswdb.github.io/index.html)), School of Computer Science and Engineering, University of New South Wales, Australia, in 2024.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am currently an assistant professor in the School of Engineering, Great Bay University, Dongguan, China. My research interest lies at Graph Representation Learning, Industrial Artificial Intelligence, and Data-driven Modeling. I have sufficient funding for research assistant and postdoc recruitments, please feel free to contact me with your cv. Email address: qqsun@gbu.edu.cn.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<h2 id="publications"> Selected Publications</h2>
 
-**Markdown generator**
+*The symbol <sup>*</sup> denotes corresponding authors. Full publications are available in [Google Scholar](https://scholar.google.com.hk/citations?user=ASifHRAAAAAJ&hl=zh-CN).*
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+1. Ziyue Qiao, Junren Xiao, **Qingqiang Sun**<sup>\*</sup>, Meng Xiao, Xiao Luo, Hui Xiong<sup>\*</sup>. *Holistic Memory Diversification for Incremental Learning in Growing Graphs*. **ICLR 2025**.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+2. **Qingqiang Sun**, Chaoqi Chen, Ziyue Qiao<sup>\*</sup>, Xubin Zheng, Kai Wang<sup>\*</sup>. *Single-View Graph Contrastive Learning with Soft Neighborhood Awareness*. **AAAI 2025**.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+3. Mingrong Gong, Chaoqi Chen<sup>\*</sup>, **Qingqiang Sun**,  Yue Wang, Hui Huang. *Out-of-Distribution Detection with Prototypical Outlier Proxy*. **AAAI 2025**.
+   
+4. Xinlei Huang, Zhiqi Ma, Dian Meng, Yanran Liu, Shiwei Ruan, **Qingqiang Sun**, Xubin Zheng<sup>\*</sup>, Ziyue Qiao. *PRAGA: Prototype-aware Graph Adaptive Aggregation for Spatial Multi-modal Omics Analysis*. **AAAI 2025**.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+5. **Qingqiang Sun**, Kai wang, Wenjie Zhang, Peng Cheng, and Xuemin Lin<sup>\*</sup>. *Interdependence-Adaptive Mutual Information Maximization for Graph Contrastive Learning*. **IEEE Transactions on Knowledge and Data Engineering (TKDE)**, DOI: [10.1109/TKDE.2024.3423409](https://ieeexplore.ieee.org/document/10596072)， 2024.
+
+6. Kai Wang, Daojie He, **Qingqiang Sun**<sup>\*</sup>, Lizhi Yi, Xiaofeng Yuan, Yalin Wang. *Towards Global Information Extraction and Multi-Scale Feature Fusion for Remote Sensing Based Landslide Segmentation*. **APPLIED SOFT COMPUTING (ASC)**, 2024. 
+
+7. Kai Wang, Zihui Cao, Danrong Wang, **Qingqiang Sun**<sup>\*</sup>, Xiaofeng Yuan, Yalin Wang, and Chenliang Liu<sup>\*</sup>. *Manifoldconstrained Trace Ratio Optimization for Nonstationary Process Performance Monitoring*. **Journal of Process Control (JPC)**, 2023.
+
+8. **Qingqiang Sun**, Wenjie Zhang, Xuemin Lin<sup>\*</sup>. *Progressive Hard Negative Masking: From Global Uniformity to Local Tolerance*. **IEEE Transactions on Knowledge and Data Engineering (TKDE)**, DOI: [10.1109/TKDE.2023.3269795](https://doi.org/10.1109/TKDE.2023.3269795), 2023.
+
+9. **Qingqiang Sun**, Xuemin Lin<sup>\*</sup>, Ying Zhang, Wenjie Zhang<sup>\*</sup>, Chaoqi Chen. *Towards Higher-order Topological Consistency for Unsupervised Network Alignment*. **IEEE International Conference on Data Engineering (ICDE)**, 2023.   
+
+10. **Qingqiang Sun**, Zhiqiang Ge<sup>\*</sup>. *Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application*. **IEEE Transactions on Cybernetics (TCyb)**, 52(5), 3457-3468, 2022. \[<font color=Tomato>ESI Highly Cited Papers</font>\]
+
+11. Junhua Zheng, Chao Wu, **Qingqiang Sun**, Zhihuan Song, and Le Zhou<sup>\*</sup>. *Deep learning of complex process data for fault classification based on sparse probabilistic dynamic network*. **Journal of the Taiwan Institute of Chemical Engineers**, 138, 104498, 2022.
+
+12. **Qingqiang Sun**, Zhiqiang Ge<sup>\*</sup>. *A Survey on Deep Learning for Data-driven Soft Sensors*. **IEEE Transactions on Industrial Informatics (TII)**, 17(9), 5853-5866, 2021. \[<font color=Tomato>ESI Hot Papers</font>\]  
+
+13. **Qingqiang Sun**, Zhiqiang Ge<sup>\*</sup>. *Deep Learning for Industrial KPI Prediction: When Ensemble Learning Meets Semi-Supervised Data*. **IEEE Transactions on Industrial Informatics (TII)**, 17(1), 260-269, 2021. \[<font color=Tomato>ESI Highly Cited Papers</font>\]  
+
+14. **Qingqiang Sun**, Zhiqiang Ge<sup>\*</sup>. *Probabilistic Sequential Network for Deep Learning of Complex Process Data and Soft Sensor Application*. **IEEE Transactions on Industrial Informatics (TII)**, 15(5), 2700-2709, 2019.
+
+
+<h2 id="honors & awards"> Selected Scholarships, Honors, and Awards</h2>
+
+- **Scholarships:**
+  - Chinese National Scholarship for Graduates granted by Ministry of Education, PRC, 2019
+  - Chinese National Scholarship for Undergraduates granted by Ministry of Education, PRC, 2016  
+
+- **Honors:**
+  - Outstanding Dissertation Award granted by Chinese Association of Automation (CAA), 2022
+  - Outstanding Dissertation Award granted by Chinese Institute of Electronics (CIE), 2021
+  - Outstanding Graduate Award for Masters granted by Zhejiang University, 2020
+  - Outstanding Graduate Award for Bachelors granted by Xiamen University, 2017
+
+- **Awards:**
+  - The First Award of the 7th National Undergraduate Machinery Innovation Competition, 2016
+  - The Meritorious Winner (the First Award) of American Undergraduate Mathematical Contest in Modeling, 2016
+  - The Third Award of the 9th National Undergraduate Electrician Mathematical Contest in Modeling in Chinese Society for Electrical Engineering Cup, 2016
+
+<h2 id="academic activities"> Academic Activities</h2>
+
+- Invited Jounal Reviewer
+  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+  - IEEE Transactions on Knowledge and Data Engineering
+  - IEEE Transactions on Cybernetics
+  - IEEE Transactions on Industrial Informatics 
+  - IEEE Transactions on Neural Networks and Learning Systems
+
+
+- Invited Conference Reviewer
+  - ICML 2025
+  - ICLR 2025
+  - NeurIPS 2024,2025
+
+- Organizer
+  - Proceedings Chair：The 3rd International Workshop on [Large Scale Graph Data Analytics (LSGDA)](https://lsgda.github.io/2024) in conjunction with VLDB2024
+
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=djQAtmR3KX6TaEwxFDWlh01anIcVC0Tbv7U28jpnYzY'></script>
+
+<td align="center" font="Arial">&copy; Qingqiang Sun | Last updated: Jan 2025</td>
